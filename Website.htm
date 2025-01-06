@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raunav Sharma - Data Science Portfolio</title>
+    <!-- External Stylesheets and Scripts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/locomotive-scroll/4.1.4/locomotive-scroll.min.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/locomotive-scroll/4.1.4/locomotive-scroll.min.js"></script>
+</head>
+<body data-scroll-container>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home" class="active"><i class="fas fa-home"></i>Home</a></li>
+            <li><a href="#portfolio"><i class="fas fa-briefcase"></i>Portfolio</a></li>
+            <li><a href="#skills"><i class="fas fa-cogs"></i>Skills</a></li>
+            <li><a href="#about-me"><i class="fas fa-user"></i>About Me</a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i>Contact</a></li>
+        </ul>
+    </nav>
+
+<!-- Home Section -->
+<section id="home" class="hero-section">
+    <div class="hero-content">
+        <h1>Hi, I'm <span id="typewriter"></span></h1>
+        <h2>Data Scientist | Problem Solver | Innovator</h2>
+        <p>
+            Leveraging data to solve real-world challenges. Recently graduated with a Bachelor's in Data Science
+            from Indiana University, specializing in machine learning, statistical modeling, and advanced data
+            visualization.
+        </p>
+        <div>
+            <a href="#portfolio" class="cta-button">Explore My Work</a>
+            <a href="#contact" class="cta-button-secondary">Get in Touch</a>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section id="transition" class="transition-section">
+    <div class="transition-text">
+        <h1>Here Are Some of My Projects</h1>
+<p id="scroll-text">Scroll down to discover more!</p>
+    </div>
+    <canvas id="particle-effect"></canvas> <!-- Optional: For animations -->
+</section>
+
+
+
+
+
+
+<!-- Portfolio Section -->
+<section id="portfolio" class="portfolio-section">
+    <div class="carousel-container">
+        <div class="carousel">
+
+
+            <!-- Carousel Items -->
+            <div class="carousel-item">
+                <img src="Data Cleansing and Business Insights.webp" alt="Project 1">
+                <h3>Data Cleansing and Business Insights</h3>
+                <p>Transforming raw business data into actionable insights</p>
+                <p>Technologies: Microsoft Excel, Macros, Pivot Tables, Charts</p>
+                <a href="data-cleansing-business-insights.html" class="view-button">View</a>
+</div>
+            
+            <div class="carousel-item">
+                <img src="Coffee Shop Analysis.png" alt="Project 2">
+                <h3>Coffee Shop Sales and Trends Analysis</h3>
+                <p>Transforming sales data into actionable insights for business growth.</p>
+                <p>Technologies: Microsoft Excel, Pivot Tables, Charts, Descriptive Statistics</p>
+                <a href="coffee-shop-sales-trends-analysis.html" class="view-button">View</a>
+            </div>
+
+            <div class="carousel-item">
+                <img src="Interactive Business Dashboards.webp" alt="Project 3">
+                <h3>Interactive Business Dashboards</h3>
+                <p>Uncovering trends and enhancing decision-making through advanced dashboards.</p>
+                <p>Technologies: Microsoft Excel, Power Query, Power Pivot, Pivot Tables, and Charts</p>
+                <a href="Interactive Business Dashboards for Data-Driven Insights.html" class="view-button">View</a>
+            </div>
+
+            <div class="carousel-item">
+                <img src="Optimizing Café Operations.webp" alt="Project 4">
+                <h3>Optimizing Café Operations</h3>
+                <p>Maximizing efficiency through optimization models for profitability and resource utilization.</p>
+                <p>Tools - Microsoft Excel with Solver Add-In
+                  Advanced Macros and VBA </p>
+                  <p> Linear Programming Techniques </p>
+                  <p> Form Controls, and Dynamic Excel Features </p>
+		
+                <a href="optimizing-cafe-operations.html" class="view-button">View</a>
+            </div>
+
+            <div class="carousel-item">
+                <img src="Monte Carlo.jpg" alt="Project 5">
+                <h3>Monte Carlo Cost and Investment Analysis</h3>
+                <p>Leveraging probabilistic modeling to guide construction cost estimation and strategic investment allocation.</p>
+                <p>Technologies: Microsoft Excel, Macros, Conditional Formatting</p>
+                <a href="Monte Carlo Cost and Investment Analysis.html" class="view-button">View</a>
+            </div>
+
+            <div class="carousel-item">
+                <img src="Healthcare Claims.webp" alt="Project 6">
+                <h3>Predictive Analytics for Healthcare Claims Processing</h3>
+                <p>Leveraging data science to optimize claim approvals and reduce financial unpredictability in healthcare systems.</p>
+                <p>Technologies: Random Forest, SARIMA, Logistic Regression, Python, Pandas, NumPy, Scikit-learn, Data preprocessing, and visualization</p>
+                <a href="Predictive Analytics for Healthcare Claims Processing.html" class="view-button">View</a>
+            </div>
+
+            <!-- Additional Non-Coding Projects -->
+            <div class="carousel-item">
+                <img src="Ethical Implications of AI.png" alt="Excel Dashboard">
+                <h3>The Ethical Implications of AI</h3>
+                <p>Exploring innovation, responsibility, and the balance of ethics in AI development.</p>
+                <p>Technologies: Research Literature Analysis, Natural Language Processing (NLP) Models, Big Data Analytics</p>
+                <a href="The Ethical Implications of AI.html" class="view-button">View</a>
+            </div>
+
+            <div class="carousel-item">
+                <img src="Big Data Ethics.jpg" alt="Presentation Design">
+                <h3>Social and Ethical Impacts of Big Data</h3>
+                <p>Exploring the balance between innovation and responsibility in data systems.</p>
+                <p>Technologies: Case Studies (e.g., Aadhaar System), Articles and Research Papers, Ethical and Social Frameworks</p>
+                <a href="Social and Ethical Impacts of Big Data.html" class="view-button">View</a>
+            </div>
+
+       <div class="carousel-item">
+                <img src="Linear Algebra main.png" alt="Project 5">
+                <h3>Linear Algebra and K-Means Clustering</h3>
+                <p>Exploring the mathematical foundations of machine learning algorithms.</p>
+                <p>Technologies: Linear Algebra (eigenvectors, matrix operations), Python (Numpy library), K-Means Algorithm</p>
+                <a href="Linear Algebra and K-Means Clustering.html" class="view-button">View</a>
+            </div>
+
+  <div class="carousel-item">
+                <img src="Finance.jpg" alt="Project 5">
+                <h3>Portfolio Optimization and Efficient Frontier</h3>
+                <p>Analyzing returns, risks, and the efficient frontier using a two-stock portfolio model.</p>
+                <p>Technologies: Microsoft Excel for calculations and visualizations, Portfolio theory concepts including average return, standard deviation, and correlation, Efficient frontier and minimum variance portfolio analysis.</p>
+                <a href="Portfolio Optimization and Efficient Frontier.html" class="view-button">View</a>
+            </div>
+
+
+  <div class="carousel-item">
+                <img src="2012 Benghazi.jpg" alt="Project 5">
+                <h3>2012 Benghazi Attacks</h3>
+                <p>Analysis and Key Learnings.</p>
+                <p>Technologies: Investigative Matrix, Scenario Building, Hypothesis Generation and Testing, Intelligence Memoranda and Indicators Analysis</p>
+                <a href="2012 Benghazi Attacks - Analysis and Key Learnings.html" class="view-button">View</a>
+            </div>
+
+
+  <div class="carousel-item">
+                <img src="Optimization Models.jpeg" alt="Project 5">
+                <h3>Optimization Models and Decision Analysis</h3>
+                <p>Solving real-world problems using decision analysis and optimization models.</p>
+                <p>Technologies: Microsoft Excel, Solver Add-In, Optimization Techniques</p>
+                <a href="Optimization Models and Decision Analysis.html" class="view-button">View</a>
+            </div>
+
+  <div class="carousel-item">
+                <img src="Demand Forecasting.jpeg" alt="Project 5">
+                <h3>Demand Forecasting Analysis</h3>
+                <p>Utilizing advanced forecasting techniques to optimize demand predictions.</p>
+                <p>Technologies: Microsoft Excel, Statistical Analysis Techniques, Exponential Smoothing Models, Data Visualization</p>
+                <a href="Demand Forecasting Analysis.html" class="view-button">View</a>
+            </div>
+
+
+
+  <div class="carousel-item">
+                <img src="Wine.png" alt="Project 5">
+                <h3>Wine Classification with Multi-layer Perceptron (MLP)</h3>
+                <p>Classifying wine types using a custom-built neural network model.</p>
+                <p>Technologies: Python, NumPy, Pandas, Jupyter Notebook</p>
+                <a href="Wine Classification with Multi-layer Perceptron.html" class="view-button">View</a>
+            </div>
+
+  <div class="carousel-item">
+                <img src="Breast Cancer.png" alt="Project 5">
+                <h3>Breast Cancer Classification with Multi-layer Perceptron (MLP)</h3>
+                <p>Using neural networks to classify tumors as malignant or benign.</p>
+                <p>Technologies: Python, Sklearn, NumPy, Pandas, Matplotlib</p>
+                <a href="Breast Cancer Classification.html" class="view-button">View</a>
+            </div>
+
+  <div class="carousel-item">
+                <img src="CIFAR-10.jpg" alt="Project 5">
+                <h3>Deep Learning for Multi-Class Classification Using CIFAR-10</h3>
+                <p>Designing and implementing multiple DNN architectures to classify CIFAR-10 dataset images into 10 classes.</p>
+                <p>Technologies: Python, Keras, TensorFlow, Jupyter Notebook</p>
+                <a href="CIFAR-10.html" class="view-button">View</a>
+            </div>
+
+  <div class="carousel-item">
+                <img src="Sentiment Analysis.png" alt="Project 5">
+                <h3>Sentiment Analysis Using Logistic Regression</h3>
+                <p>Classifying IMDb movie reviews as positive or negative using a logistic regression model.</p>
+                <p>Technologies: Python, Scikit-learn, NLTK, Pandas, NumPy, Matplotlib, Seaborn</p>
+                <a href="Sentiment Analysis Using Logistic Regression.html" class="view-button">View</a>
+            </div>
+
+  <div class="carousel-item">
+                <img src="Prediction Chnaces main.jpg" alt="Project 5">
+                <h3>Predicting Admission Chances with Machine Learning</h3>
+                <p>Building machine learning models to predict the probability of university admission based on key metrics like GRE, TOEFL scores, and CGPA.</p>
+                <p>Technologies: Python, Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn</p>
+                <a href="Predicting Admission Chances.html" class="view-button">View</a>
+            </div>
+
+  <div class="carousel-item">
+                <img src="ITC main.avif" alt="Project 5">
+                <h3>ITC Ltd. Strategy Analysis</h3>
+                <p>A comprehensive strategic report analyzing ITC Ltd.'s competitive positioning and growth strategies.</p>
+                <p>Technologies: Porter’s Five Forces, STEEP Analysis, SWOT Analysis, Microsoft Excel (Data Visualization)</p>
+                <a href="ITC Strategy Report.html" class="view-button">View</a>
+            </div>
+
+  <div class="carousel-item">
+                <img src="Performance Analytics.jpg" alt="Project 5">
+                <h3>Performance Analytics: Data Extraction and Scatter Plot Analysis</h3>
+                <p>Extracted structured data from HTML pages and visualized variable correlations using scatter plots with linear regression.</p>
+                <p>Technologies: Python, Pandas, BeautifulSoup (HTML Parsing), Matplotlib, Jupyter Notebook</p>
+                <a href="Performance Analytics.html" class="view-button">View</a>
+            </div>
+
+  <div class="carousel-item">
+                <img src="Empirical Probability Distribution.webp" alt="Project 5">
+                <h3>Data Analysis: Empirical Distributions and Visualizations</h3>
+                <p>Analyzed performance data to generate probability distributions and visualizations highlighting patterns and trends.</p>
+                <p>Technologies: Python, Pandas, BeautifulSoup (HTML Parsing), Matplotlib, Jupyter Notebook</p>
+                <a href="Probability Distributions.html" class="view-button">View</a>
+            </div>
+
+  <div class="carousel-item">
+                <img src="Final Data.png" alt="Project 5">
+                <h3>Final Report: Data Collection, Parsing, and Analysis</h3>
+                <p>A comprehensive project combining web scraping, parsing, and visualization to analyze "performance" data.</p>
+                <p>Technologies: Python, Pandas, BeautifulSoup (HTML Parsing), Matplotlib, Jupyter Notebook</p>
+                <a href="iMDB Data Analysis.html" class="view-button">View</a>
+            </div>
+
+  <div class="carousel-item">
+                <img src="MapReduce Algorithm.webp" alt="Project 5">
+                <h3>MapReduce Algorithm for Word Counting on Fraudulent Email Corpus</h3>
+                <p>Analyzing fraudulent emails using the MapReduce algorithm to extract key linguistic patterns.</p>
+                <p>Technologies: Python, Scikit-learn, Pandas, Jupyter Notebook</p>
+                <a href="MapReduce Algorithm.html" class="view-button">View</a>
+            </div>
+
+  <div class="carousel-item">
+                <img src="Locality-Sensitive Hashing.jpg" alt="Project 5">
+                <h3>Locality-Sensitive Hashing for Document Similarity Detection</h3>
+                <p>Exploring efficient methods to detect document similarities using Locality-Sensitive Hashing (LSH).</p>
+                <p>Technologies: Python, Scikit-learn, Pandas, Matplotlib, Numpy</p>
+                <a href="Locality-Sensitive Hashing.html" class="view-button">View</a>
+            </div>
+
+  <div class="carousel-item">
+                <img src="Apriori and PCY Algorithms.jpg" alt="Project 5">
+                <h3>Mining Frequent Itemsets with Apriori and PCY Algorithms</h3>
+                <p>Uncovering customer purchasing patterns through market basket analysis with Python.</p>
+                <p>Technologies: Python, Scikit-learn, Pandas, Matplotlib, Numpy, MLxtend, Seaborn </p>
+                <a href="Mining Frequent Itemsets.html" class="view-button">View</a>
+            </div>
+
+  <div class="carousel-item">
+                <img src="Movie Recommendation System.png" alt="Project 5">
+                <h3>Movie Recommendation System</h3>
+                <p>Building a recommendation system using user-based collaborative filtering with k-Nearest Neighbors (KNN).</p>
+                <p>Technologies: Python, Scikit-learn, Pandas, Matplotlib, Numpy, Seaborn</p>
+                <a href="Collaborative-Filtering.html" class="view-button">View</a>
+            </div>
+
+  <div class="carousel-item">
+                <img src="Titanic Survival Prediction.jpg" alt="Project 5">
+                <h3>Titanic Survival Prediction</h3>
+                <p>Using machine learning models to predict survival probabilities of Titanic passengers.</p>
+                <p>Technologies: R Programming, Libraries: rpart, e1071, class, dplyr, ggplot2</p>
+                <a href="Titanic Survival Prediction.html" class="view-button">View</a>
+            </div>
+
+
+        </div>
+
+        <!-- Carousel Dots -->
+        <div class="carousel-dots">
+            <span class="dot" data-index="0"></span>
+            <span class="dot" data-index="1"></span>
+            <span class="dot" data-index="2"></span>
+            <span class="dot" data-index="3"></span>
+            <span class="dot" data-index="4"></span>
+            <span class="dot" data-index="5"></span>
+            <span class="dot" data-index="6"></span>
+            <span class="dot" data-index="7"></span>
+	    <span class="dot" data-index="8"></span>
+            <span class="dot" data-index="9"></span>
+            <span class="dot" data-index="10"></span>
+            <span class="dot" data-index="11"></span>
+            <span class="dot" data-index="12"></span>
+            <span class="dot" data-index="13"></span>
+            <span class="dot" data-index="14"></span>
+            <span class="dot" data-index="15"></span>
+            <span class="dot" data-index="16"></span>
+            <span class="dot" data-index="17"></span>
+            <span class="dot" data-index="18"></span>
+            <span class="dot" data-index="19"></span>
+            <span class="dot" data-index="20"></span>
+            <span class="dot" data-index="21"></span>
+            <span class="dot" data-index="22"></span>
+            <span class="dot" data-index="23"></span>
+            <span class="dot" data-index="24"></span>
+            <span class="dot" data-index="25"></span>
+            <span class="dot" data-index="26"></span>
+
+
+
+
+
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+<!-- Skills Section -->
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-scroll">
+        <!-- Data Visualization -->
+        <div class="skill-card" onclick="openModal('Data Visualization', 'Skilled in creating impactful dashboards and reports using Tableau and Power BI, enabling data-driven decision-making across various domains.')">
+            <i class="fas fa-chart-pie"></i>
+            <h3>Data Visualization</h3>
+            <p>Tableau, Power BI</p>
+        </div>
+        <!-- Programming & Analysis -->
+        <div class="skill-card" onclick="openModal('Programming & Analysis', 'Proficient in Python for data wrangling and visualization, R for statistical analysis, and SQL for database management and querying.')">
+            <i class="fas fa-code"></i>
+            <h3>Programming & Analysis</h3>
+            <p>SQL, Python (Pandas, Matplotlib), R</p>
+        </div>
+        <!-- Data Tools -->
+        <div class="skill-card" onclick="openModal('Data Tools', 'Experienced in advanced Excel for data analysis, ETL pipelines for data integration, and statistical methods for business insights.')">
+            <i class="fas fa-tools"></i>
+            <h3>Data Tools</h3>
+            <p>Advanced Excel, ETL Pipelines, Statistical Analysis</p>
+        </div>
+        <!-- Team Supervision -->
+        <div class="skill-card" onclick="openModal('Team Supervision', 'Proven ability to lead and mentor teams, ensuring timely project delivery and maintaining high performance standards.')">
+            <i class="fas fa-users-cog"></i>
+            <h3>Team Supervision</h3>
+            <p>Leadership & Mentorship</p>
+        </div>
+        <!-- Data Quality -->
+        <div class="skill-card" onclick="openModal('Data Quality', 'Experienced in ensuring data accuracy and consistency through rigorous validation and quality control measures.')">
+            <i class="fas fa-shield-alt"></i>
+            <h3>Data Quality</h3>
+            <p>Validation & Quality Control</p>
+        </div>
+        <!-- Cross-Functional Collaboration -->
+        <div class="skill-card" onclick="openModal('Cross-Functional Collaboration', 'Skilled in working with diverse teams to deliver innovative solutions tailored to business needs.')">
+            <i class="fas fa-handshake"></i>
+            <h3>Collaboration</h3>
+            <p>Cross-Functional Teams</p>
+        </div>
+        <!-- Machine Learning -->
+        <div class="skill-card" onclick="openModal('Machine Learning', 'Hands-on experience building predictive models and deploying machine learning solutions using TensorFlow, Scikit-learn, and more.')">
+            <i class="fas fa-robot"></i>
+            <h3>Machine Learning</h3>
+            <p>TensorFlow, Scikit-learn</p>
+        </div>
+        <!-- Cloud Computing -->
+        <div class="skill-card" onclick="openModal('Cloud Computing', 'Proficient in cloud platforms such as AWS and Azure for deploying scalable data solutions.')">
+            <i class="fas fa-cloud"></i>
+            <h3>Cloud Computing</h3>
+            <p>AWS, Azure</p>
+        </div>
+        <!-- Statistical Analysis -->
+        <div class="skill-card" onclick="openModal('Statistical Analysis', 'Experienced in applying statistical methods to solve business problems and derive actionable insights.')">
+            <i class="fas fa-chart-line"></i>
+            <h3>Statistical Analysis</h3>
+            <p>Hypothesis Testing, Regression</p>
+        </div>
+        <!-- Communication Skills -->
+        <div class="skill-card" onclick="openModal('Communication Skills', 'Strong communication skills to present complex data insights to both technical and non-technical audiences.')">
+            <i class="fas fa-comments"></i>
+            <h3>Communication Skills</h3>
+            <p>Data Storytelling</p>
+        </div>
+    </div>
+</section>
+
+
+<!-- Modal Popup -->
+<div class="modal-backdrop" id="modalBackdrop" onclick="closeModal()"></div>
+<div class="skill-modal" id="skillModal">
+    <h4 id="modalTitle"></h4>
+    <p id="modalDescription"></p>
+    <button onclick="closeModal()">Close</button>
+</div>
+
+
+
+
+
+
+
+
+<section id="about-me">
+    <div class="about-me-container">
+        <div class="about-me-text">
+            <h2>About Me</h2>
+            <p>
+                I’m a recent graduate in Data Science from Indiana University, Bloomington, with a strong background in statistical modeling, machine learning, and data analysis. Over the years, I’ve combined my love for sports, especially golf, with my passion for data science, resulting in innovative projects and internships.
+            </p>
+            <p>
+                If you’d like to explore my journey and career highlights, 
+                <span class="timeline-trigger" onclick="openTimeline()">click here <i class="fas fa-arrow-right"></i></span>.
+            </p>
+        </div>
+        <div class="photo-grid">
+            <img src="graduation.png" alt="Golf Tournament" class="photo">
+            <img src="me.png" alt="Internship Presentation" class="photo">
+            <img src="golf.png" alt="Graduation Day" class="photo">
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Timeline Modal -->
+<div class="timeline-modal" id="timelineModal">
+    <div class="timeline-modal-content">
+        <span class="timeline-close" onclick="closeTimeline()">&times;</span>
+        <h2>My Journey</h2>
+        <div class="timeline">
+            <!-- Timeline Item 1 -->
+            <div class="timeline-item">
+                <div class="circle" data-tooltip="Started My Bachelor's">2019</div>
+                <div class="content">
+                    <h3>Started College</h3>
+                    <p>Began my Data Science journey at Indiana University.</p>
+                </div>
+            </div>
+
+            <!-- Timeline Item 2 -->
+            <div class="timeline-item">
+                <div class="circle" data-tooltip="Data Science Bootcamp">2020</div>
+                <div class="content">
+                    <h3>Bootcamp Success</h3>
+                    <p>Completed an intensive data science bootcamp to expand my skills.</p>
+                </div>
+            </div>
+
+            <!-- Timeline Item 3 -->
+            <div class="timeline-item">
+                <div class="circle" data-tooltip="Internship at XYZ">2021</div>
+                <div class="content">
+                    <h3>Internship</h3>
+                    <p>Worked as a data analyst intern, contributing to real-world projects.</p>
+                </div>
+            </div>
+
+            <!-- Timeline Item 4 -->
+            <div class="timeline-item">
+                <div class="circle" data-tooltip="Major Research Project">2022</div>
+                <div class="content">
+                    <h3>Research Project</h3>
+                    <p>Led a machine learning research project that was later published.</p>
+                </div>
+            </div>
+
+            <!-- Timeline Item 5 -->
+            <div class="timeline-item">
+                <div class="circle" data-tooltip="Graduated!">2023</div>
+                <div class="content">
+                    <h3>Graduation</h3>
+                    <p>Graduated with a Bachelor’s degree in Data Science.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</section>
+
+
+
+
+
+
+
+<!-- Contact Section -->
+<section id="contact">
+    <h2>Contact</h2>
+    <p>If you'd like to collaborate, have questions, or just want to say hi, feel free to reach out through the form or links below:</p>
+    <ul>
+        <li><strong>Email:</strong> <a href="mailto:raunav4@gmail.com">raunav4@gmail.com</a></li>
+        <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/raunav-sharma" target="_blank">linkedin.com/in/raunav-sharma</a></li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/Raunav" target="_blank">github.com/Raunav</a></li>
+    </ul>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+        
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<script>
+    // Open Modal Function
+function openModal(title, description) {
+    const modal = document.getElementById('skillModal');
+    const backdrop = document.getElementById('modalBackdrop');
+
+    // Update modal content
+    document.getElementById('modalTitle').innerText = title;
+    document.getElementById('modalDescription').innerText = description;
+
+    // Show modal and backdrop
+    modal.classList.add('active');
+    backdrop.classList.add('active');
+}
+
+// Close Modal Function
+function closeModal() {
+    const modal = document.getElementById('skillModal');
+    const backdrop = document.getElementById('modalBackdrop');
+
+    // Hide modal and backdrop
+    modal.classList.remove('active');
+    backdrop.classList.remove('active');
+}
+
+
+// Highlight Active Nav Tab
+window.addEventListener("scroll", () => {
+    const sections = document.querySelectorAll("section");
+    const navLinks = document.querySelectorAll("nav ul li a");
+
+    sections.forEach((section) => {
+        const rect = section.getBoundingClientRect();
+        if (rect.top >= 0 && rect.top < window.innerHeight / 2) {
+            // Remove 'active' class from all nav links
+            navLinks.forEach((link) => link.classList.remove("active"));
+
+            // Add 'active' class to the current section's nav link
+            const activeLink = document.querySelector(`nav ul li a[href="#${section.id}"]`);
+            if (activeLink) activeLink.classList.add("active");
+        }
+    });
+});
+
+// Smooth Scroll on Click
+document.querySelectorAll("nav ul li a").forEach((link) => {
+    link.addEventListener("click", (event) => {
+        event.preventDefault(); // Prevent default link behavior
+        const targetSection = document.querySelector(link.getAttribute("href"));
+        targetSection.scrollIntoView({ behavior: "smooth" });
+
+        // Remove 'active' class from all links
+        document.querySelectorAll("nav ul li a").forEach((l) => l.classList.remove("active"));
+
+        // Add 'active' class to the clicked link
+        link.classList.add("active");
+    });
+});
+
+
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+<script>
+    particlesJS('body', {
+        "particles": {
+            "number": {
+                "value": 80,
+                "density": {
+                    "enable": true,
+                    "value_area": 800
+                }
+            },
+            "color": {
+                "value": "#ffffff"
+            },
+            "shape": {
+                "type": "circle",
+                "stroke": {
+                    "width": 0,
+                    "color": "#000000"
+                }
+            },
+            "opacity": {
+                "value": 0.5,
+                "random": false,
+                "anim": {
+                    "enable": false,
+                    "speed": 1,
+                    "opacity_min": 0.1,
+                    "sync": false
+                }
+            },
+            "size": {
+                "value": 5,
+                "random": true,
+                "anim": {
+                    "enable": false,
+                    "speed": 40,
+                    "size_min": 0.1,
+                    "sync": false
+                }
+            },
+            "line_linked": {
+                "enable": true,
+                "distance": 150,
+                "color": "#ffffff",
+                "opacity": 0.4,
+                "width": 1
+            },
+            "move": {
+                "enable": true,
+                "speed": 6,
+                "direction": "none",
+                "random": false,
+                "straight": false,
+                "out_mode": "out",
+                "attract": {
+                    "enable": false,
+                    "rotateX": 600,
+                    "rotateY": 1200
+                }
+            }
+        },
+        "retina_detect": true
+    });
+
+</script>
+
+
+<script>
+
+// Dynamically change navbar style on scroll
+window.addEventListener("scroll", () => {
+    const sections = document.querySelectorAll("section");
+    const navLinks = document.querySelectorAll("nav ul li a");
+
+    sections.forEach((section) => {
+        const rect = section.getBoundingClientRect();
+        if (rect.top >= 0 && rect.top < window.innerHeight / 2) {
+            navLinks.forEach((link) => link.classList.remove("active"));
+            document.querySelector(`a[href="#${section.id}"]`).classList.add("active");
+        }
+    });
+});
+
+
+
+// Function to open the timeline modal
+function openTimeline() {
+    const timelineModal = document.getElementById('timelineModal');
+    if (timelineModal) {
+        timelineModal.style.display = 'block'; // Show the modal
+        document.body.classList.add('modal-open'); // Prevent background scroll
+    }
+}
+
+// Function to close the timeline modal
+function closeTimeline() {
+    const timelineModal = document.getElementById('timelineModal');
+    if (timelineModal) {
+        timelineModal.style.display = 'none'; // Hide the modal
+        document.body.classList.remove('modal-open'); // Restore background scroll
+    }
+}
+
+// Add event listener to close the modal when clicking outside the content
+window.onclick = function (event) {
+    const timelineModal = document.getElementById('timelineModal');
+    if (event.target === timelineModal) {
+        timelineModal.style.display = 'none'; // Hide the modal if clicked outside
+        document.body.classList.remove('modal-open'); // Restore background scroll
+    }
+};
+
+
+
+// Typewriter effect for introduction text
+const typewriter = document.getElementById("typewriter");
+const text = ["Raunav Sharma", "a Data Scientist", "an Innovator"];
+let index = 0;
+let charIndex = 0;
+
+function typeEffect() {
+    if (charIndex < text[index].length) {
+        typewriter.textContent += text[index].charAt(charIndex);
+        charIndex++;
+        setTimeout(typeEffect, 100);
+    } else {
+        setTimeout(() => {
+            charIndex = 0;
+            typewriter.textContent = "";
+            index = (index + 1) % text.length;
+            typeEffect();
+        }, 2000); // Delay before typing the next text
+    }
+}
+typeEffect();
+
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+    const carousel = document.querySelector(".carousel");
+    const items = document.querySelectorAll(".carousel-item");
+    const container = document.querySelector(".carousel-container");
+    const dots = document.querySelectorAll(".carousel-dots .dot");
+
+    let currentIndex = 0;
+
+    function updateCarousel() {
+        const containerCenter = container.offsetWidth / 2;
+        const activeItem = items[currentIndex];
+        const activeItemRect = activeItem.getBoundingClientRect();
+        const activeItemCenter = activeItemRect.width / 2;
+
+        // Calculate offset to center the active item
+        const offset = containerCenter - activeItemCenter - (activeItem.offsetLeft - carousel.offsetLeft);
+
+        carousel.style.transform = `translateX(${offset}px)`;
+
+        // Update active classes
+        items.forEach((item, index) => {
+            item.classList.remove("active", "previous", "next");
+            if (index === currentIndex) {
+                item.classList.add("active");
+            } else if (index === (currentIndex - 1 + items.length) % items.length) {
+                item.classList.add("previous");
+            } else if (index === (currentIndex + 1) % items.length) {
+                item.classList.add("next");
+            }
+        });
+
+        // Update dot indicators
+        dots.forEach((dot, index) => {
+            dot.classList.toggle("active", index === currentIndex);
+        });
+    }
+
+    // Dot Navigation
+    dots.forEach((dot, index) => {
+        dot.addEventListener("click", () => {
+            currentIndex = index;
+            updateCarousel();
+        });
+    });
+
+    // Auto-slide functionality
+    setInterval(() => {
+        currentIndex = (currentIndex + 1) % items.length;
+        updateCarousel();
+    }, 5000);
+
+    // Ensure centering on load and resize
+    window.addEventListener("resize", updateCarousel);
+
+    // Initial update
+    updateCarousel();
+});
+
+
+
+
+
+
+
+
+
+
+
+
+   
+// Scroll effect for the transition section text
+document.addEventListener("DOMContentLoaded", () => {
+    const scrollText = document.getElementById("scroll-text");
+    const transitionSection = document.getElementById("transition");
+    const maxFontSize = 3; // Maximum font size in rem
+    const minFontSize = 1; // Minimum font size in rem
+
+    window.addEventListener("scroll", () => {
+        const transitionRect = transitionSection.getBoundingClientRect();
+        const scrollAmount = Math.max(0, Math.min(window.innerHeight, window.innerHeight - transitionRect.top));
+
+        const newFontSize = Math.min(
+            maxFontSize,
+            minFontSize + (scrollAmount / window.innerHeight) * (maxFontSize - minFontSize)
+        );
+
+        scrollText.style.fontSize = `${newFontSize}rem`;
+
+        if (transitionRect.bottom <= 100) {
+            scrollText.style.fontSize = `${maxFontSize}rem`;
+        }
+    });
+});
+
+function openSkillModal(title, description, graphic) {
+    const modal = document.getElementById("skillModal");
+    const backdrop = document.getElementById("modalBackdrop");
+
+    // Update modal content
+    document.getElementById("modalTitle").innerText = title;
+    document.getElementById("modalDescription").innerText = description;
+
+    if (graphic) {
+        const modalGraphic = document.getElementById("modalGraphic");
+        modalGraphic.style.backgroundImage = `url(${graphic})`;
+    }
+
+    // Reset modal style to ensure it opens centered
+    modal.style.transform = "translate(-50%, -50%) scale(0.9)"; // Optional small scale for pop-in effect
+    modal.style.opacity = "0"; // Start hidden
+
+    // Add a slight delay to trigger the CSS transitions
+    setTimeout(() => {
+        modal.classList.add("active");
+        modal.style.transform = "translate(-50%, -50%) scale(1)"; // Bring to full size and center
+        modal.style.opacity = "1"; // Fade in
+    }, 10);
+
+    backdrop.classList.add("active"); // Show backdrop
+}
+
+function closeSkillModal() {
+    const modal = document.getElementById("skillModal");
+    const backdrop = document.getElementById("modalBackdrop");
+
+    // Hide modal with fade-out effect
+    modal.classList.remove("active");
+    backdrop.classList.remove("active");
+
+    // Optional: Reset modal scale for next time it opens
+    modal.style.transform = "translate(-50%, -50%) scale(0.9)";
+    modal.style.opacity = "0";
+}
+
+
+</script>
+
+
+</body>
+
+
+
+</html>
