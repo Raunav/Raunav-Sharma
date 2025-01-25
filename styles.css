@@ -136,7 +136,7 @@ nav ul li a.active::after {
 
 /* 🔹 Hero Heading: Ensure Large Font */
 .hero-content h1 {
-    font-size: 3rem !important; /* Increase size */
+    font-size: 2rem !important; /* Increase size */
     text-align: center;
     display: flex;
     justify-content: center;
@@ -149,7 +149,7 @@ nav ul li a.active::after {
 
 /* 🔹 Typewriter Effect Text */
 #typewriter {
-    font-size: 3rem !important; /* Match size */
+    font-size: 2rem !important; /* Match size */
     font-weight: bold;
     display: inline-block;
     min-width: fit-content;
