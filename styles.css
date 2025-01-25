@@ -136,7 +136,7 @@ nav ul li a.active::after {
 
 /* 🔹 Hero Heading: Ensures Max Size Without Overflow */
 .hero-content h1 {
-    font-size: 1.2rem !important; /* Adjust based on screen */
+    font-size: 0.8rem !important; /* Adjust based on screen */
     text-align: center;
     display: flex;
     justify-content: center;
